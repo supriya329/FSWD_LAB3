@@ -1,0 +1,73 @@
+/* style.css — poshtik-campus, site-wide. */
+
+/* Base page */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: floralwhite;
+    color: black;
+}
+
+
+/* Header */
+#page-header {
+    background-color: darkslategray;
+    color: white;
+    padding: 16px;
+    text-align: center;
+}
+
+
+/* Headings */
+h1,
+h3 {
+    color: seagreen;
+}
+
+
+/* Dish cards */
+.dish {
+    width: 300px;
+    background-color: mintcream;
+    border: 2px solid seagreen;
+    padding: 12px;
+    margin: 12px 0;
+}
+
+
+/* Dish heading */
+.dish h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+/* Navigation links */
+nav a {
+    color: seagreen;
+    text-decoration: none;
+}
+
+
+/* Footer */
+footer p {
+    text-align: center;
+}
+
+
+/* ===== phone layout — the media query MUST stay last ===== */
+
+@media (max-width: 600px) {
+
+    .dish {
+        width: 100%;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+}
